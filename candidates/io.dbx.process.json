@@ -2,23 +2,24 @@
   "schemaVersion": 1,
   "id": "io.dbx.process",
   "publisher": "alan",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "Process Manager",
   "description": "Browse, search, and terminate local and remote OS processes.",
-  "icon": "https://raw.githubusercontent.com/allran/dbx-plugin-process/v0.1.0/assets/plugin.svg",
+  "icon": "https://raw.githubusercontent.com/allran/dbx-plugin-process/v0.1.1/assets/plugin.svg",
   "tags": [
     "process",
     "system",
     "workbench"
   ],
   "permissions": [
+    "host.binary",
     "host.events",
     "host.workbench"
   ],
-  "source": "https://github.com/allran/dbx-plugin-process/tree/v0.1.0",
+  "source": "https://github.com/allran/dbx-plugin-process/tree/v0.1.1",
   "homepage": "https://github.com/allran/dbx-plugin-process",
   "license": "Apache-2.0",
-  "releaseNotes": "Initial release: local process list/search/kill with confirmation, ports and protected processes, remote SSH via DBX tunnel (password or private key).",
+  "releaseNotes": "Declare host.binary for process kill, local helper spawn (lsof/plutil), and remote SSH command execution.",
   "localizations": {
     "zh-CN": {
       "name": "进程管理",
@@ -28,33 +29,33 @@
   "targets": [
     {
       "target": "darwin-arm64",
-      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.0/io.dbx.process-0.1.0-darwin-arm64.dbxp",
-      "sha256": "1b1874f6cea240903481c5ec5737985533b22d4f23281f37de55a69a520f6959",
-      "size": 1422924
+      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.1/io.dbx.process-0.1.1-darwin-arm64.dbxp",
+      "sha256": "2d399df6c528ac85379a57fc71611bf8a343e35faf180b7dc85f1c577b67a6d5",
+      "size": 1422887
     },
     {
       "target": "darwin-x64",
-      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.0/io.dbx.process-0.1.0-darwin-x64.dbxp",
-      "sha256": "c8ec5f51e59efc7236da32c24935fc998fb7be19097c941ae1624bbbc4823a6d",
-      "size": 1530984
+      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.1/io.dbx.process-0.1.1-darwin-x64.dbxp",
+      "sha256": "876044fccfc85774cf1c5e5b4c7b59b91aebb2fb4dce760c51cbcbef6e57d27e",
+      "size": 1531041
     },
     {
       "target": "linux-arm64",
-      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.0/io.dbx.process-0.1.0-linux-arm64.dbxp",
-      "sha256": "23588fb9cb3bd60eda6576040989ac53eda62aad69845870aad4305022978f2b",
-      "size": 1827660
+      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.1/io.dbx.process-0.1.1-linux-arm64.dbxp",
+      "sha256": "0b8ccf8d110ee8867a3ad5f674a1153ce30c720fe847d44e8e78d1378e76eb83",
+      "size": 1827622
     },
     {
       "target": "linux-x64",
-      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.0/io.dbx.process-0.1.0-linux-x64.dbxp",
-      "sha256": "d9c032c720fe61e869f28689e7c2a5c7303409e9e95cb2454a69ef43572e7418",
-      "size": 1905838
+      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.1/io.dbx.process-0.1.1-linux-x64.dbxp",
+      "sha256": "baee519e0e6a95bcac9c087473dedcac22ad5f6bb27b0f9df60916da1902fa96",
+      "size": 1906056
     },
     {
       "target": "windows-x64",
-      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.0/io.dbx.process-0.1.0-windows-x64.dbxp",
-      "sha256": "7ece1e8611afa316983486cfb09b8752b4f37a280d5e63025100627dbc91c232",
-      "size": 1868627
+      "url": "https://github.com/allran/dbx-plugin-process/releases/download/v0.1.1/io.dbx.process-0.1.1-windows-x64.dbxp",
+      "sha256": "46d47023f60db4dc02aafb1609a979e0194cbcd82c7019a4a84b06694d34e7e2",
+      "size": 1868861
     }
   ]
 }
