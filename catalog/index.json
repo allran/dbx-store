@@ -6997,18 +6997,60 @@
       "description": "Organize local passwords in nested groups. Vault always AES-GCM encrypted; optional Argon2id master password.",
       "publisher": "alan",
       "verified": false,
-      "icon": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.1/icon.svg",
+      "icon": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.2/icon.svg",
       "tags": [
         "password",
         "productivity",
         "workbench"
       ],
       "permissions": [],
-      "source": "https://github.com/allran/dbx-plugin-password/tree/v0.3.1",
+      "source": "https://github.com/allran/dbx-plugin-password/tree/v0.3.2",
       "homepage": "https://github.com/allran/dbx-plugin-password",
       "license": "Apache-2.0",
-      "latestVersion": "0.3.1",
+      "latestVersion": "0.3.2",
       "versions": [
+        {
+          "version": "0.3.2",
+          "releasedAt": "2026-10-27T02:48:33.156Z",
+          "releaseNotes": "v0.3.2: Windows atomic replace (MoveFileEx), GCM AAD + Argon2 params in envelope (v3), zeroize keys, envelope validation, list redacts passwords (password/get for detail), i18n/clipboard UX.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.2/io.dbx.password-0.3.2-darwin-arm64.dbxp",
+              "sha256": "13733af7b22d867c6aa2282a388e0373fd6e018cd0f6bd0976288493da962f8d",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 376927
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.2/io.dbx.password-0.3.2-darwin-x64.dbxp",
+              "sha256": "1b1e4c838c039161bf2ee0243c0bb828a602ef7367ccc2f8031edbab52a9db24",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 412983
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.2/io.dbx.password-0.3.2-linux-arm64.dbxp",
+              "sha256": "e98b39112350f676a4b90bbdb33196d236701cf54027fc62c8bc20a76f2b1846",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 404625
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.2/io.dbx.password-0.3.2-linux-x64.dbxp",
+              "sha256": "279438cdd9fc31ead35d55a07ad3966012147b0dbea2671c589cb514d98a95ab",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 434465
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.dbx.password/0.3.2/io.dbx.password-0.3.2-windows-x64.dbxp",
+              "sha256": "b72e8f39f6588a9c9553338a6cfe05f6084bd0bdf449534e89d3a2c0fefdec9b",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 377531
+            }
+          ]
+        },
         {
           "version": "0.3.1",
           "releasedAt": "2026-10-26T12:38:29.604Z",
