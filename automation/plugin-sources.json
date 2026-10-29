@@ -42,11 +42,6 @@
       "autoUpdate": true
     },
     {
-      "repository": "allran/dbx-plugin-screenshot",
-      "metadataPath": ".dbx-store.json",
-      "autoUpdate": true
-    },
-    {
       "repository": "alvinades98/dbx-pg-restore",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
@@ -83,16 +78,6 @@
     },
     {
       "repository": "Ezreal-byte/dbx-rocketmq-dashboard",
-      "metadataPath": ".dbx-store.json",
-      "autoUpdate": true
-    },
-    {
-      "repository": "fwrq41251/dbx-plugin-cosmosdb",
-      "metadataPath": ".dbx-store.json",
-      "autoUpdate": true
-    },
-    {
-      "repository": "huangqiang008/dbx-object-storage",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
     },
@@ -202,11 +187,6 @@
       "autoUpdate": true
     },
     {
-      "repository": "vyrnax/dbx-plugin-translation",
-      "metadataPath": ".dbx-store.json",
-      "autoUpdate": true
-    },
-    {
       "repository": "yaoxinghuo/dbx-dev-tools",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
@@ -232,6 +212,11 @@
       "autoUpdate": true
     },
     {
+      "repository": "zaojiaoci/dbx-empty-bowl",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
       "repository": "zaojiaoci/dbx-sql-guard",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
@@ -243,6 +228,26 @@
     },
     {
       "repository": "zhengcan/dbx-notebook",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "huangqiang008/dbx-object-storage",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "fwrq41251/dbx-plugin-cosmosdb",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "vyrnax/dbx-plugin-translation",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
+    },
+    {
+      "repository": "allran/dbx-plugin-screenshot",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
     }
