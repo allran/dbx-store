@@ -2,58 +2,59 @@
   "schemaVersion": 1,
   "id": "io.dbx.screenshot",
   "publisher": "alan",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "Screenshot",
-  "description": "Capture the screen and keep a local screenshot history in DBX.",
-  "icon": "https://raw.githubusercontent.com/allran/dbx-plugin-screenshot/v0.1.0/assets/plugin.svg",
+  "description": "Capture the screen and keep a local screenshot history in DBX. Saving can copy the image to the clipboard (overwrites current clipboard contents; toggle in settings).",
+  "icon": "https://raw.githubusercontent.com/allran/dbx-plugin-screenshot/v0.1.1/assets/plugin.svg",
   "tags": [
     "screenshot",
     "productivity",
     "workbench"
   ],
   "permissions": [
+    "host.binary",
     "host.events"
   ],
-  "source": "https://github.com/allran/dbx-plugin-screenshot/tree/v0.1.0",
+  "source": "https://github.com/allran/dbx-plugin-screenshot/tree/v0.1.1",
   "homepage": "https://github.com/allran/dbx-plugin-screenshot",
   "license": "Apache-2.0",
-  "releaseNotes": "Initial release: display/window/region/delay capture, annotation tools, preferences, history, and Screen Recording permission flow.",
+  "releaseNotes": "0.1.1: declare host.binary; Windows interactive region capture; package LICENSE; clean capture tmp on failure/clear; disclose default copy-to-clipboard overwrites the system clipboard.",
   "localizations": {
     "zh-CN": {
       "name": "截图",
-      "description": "截取屏幕并在 DBX 中保存本机截图历史。"
+      "description": "截取屏幕并在 DBX 中保存本机截图历史。保存后可复制到剪贴板（会覆盖当前剪贴板内容，可在设置中关闭）。"
     }
   },
   "targets": [
     {
       "target": "darwin-arm64",
-      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-darwin-arm64.dbxp",
-      "sha256": "d014272d7d9b19e616c791c210d35833f394eebb1b7da55564a13c12aa5c60fb",
-      "size": 900380
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.1/io.dbx.screenshot-0.1.1-darwin-arm64.dbxp",
+      "sha256": "a70cb367c8a6a00a90e20eb1efcc2fdca857cb76b8fdd66c5303c773394e8637",
+      "size": 904919
     },
     {
       "target": "darwin-x64",
-      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-darwin-x64.dbxp",
-      "sha256": "c0e48386f416228fc5ba54b802fa74506daba7d9c948e786c459069792b85415",
-      "size": 959819
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.1/io.dbx.screenshot-0.1.1-darwin-x64.dbxp",
+      "sha256": "07bef7264b4167e6d48e5e9776bc6578203941503bdb5d7f3e2b4cf340bbf7fb",
+      "size": 963313
     },
     {
       "target": "linux-arm64",
-      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-linux-arm64.dbxp",
-      "sha256": "19b33a905a16644fba9b0b751004d0cc40fe0216736ab2e23ccdf7673b08b00e",
-      "size": 1874614
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.1/io.dbx.screenshot-0.1.1-linux-arm64.dbxp",
+      "sha256": "086c4d0453ba41f396e774af89975f682daebdef261306e3123eeb934bbbc9d5",
+      "size": 1878598
     },
     {
       "target": "linux-x64",
-      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-linux-x64.dbxp",
-      "sha256": "66542f4c3aff89d2f9b41ca48c36282ce74505a7f10050b650a281facfa74bd5",
-      "size": 1950249
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.1/io.dbx.screenshot-0.1.1-linux-x64.dbxp",
+      "sha256": "728f58319c8bc85c2be9d9d53c83ebb6a4dbdb2a6dfc1ecc50f06862d32633ed",
+      "size": 1954843
     },
     {
       "target": "windows-x64",
-      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-windows-x64.dbxp",
-      "sha256": "2a4c6cf8d208fb9b6d4f5b2733e68c79b99c92485a2913c2ea0e164b6972fc6b",
-      "size": 749773
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.1/io.dbx.screenshot-0.1.1-windows-x64.dbxp",
+      "sha256": "e5fa78d10cc6b472ed881aec773e4b2e3fb30b0416b90b58e254aea0e701815a",
+      "size": 764324
     }
   ]
 }
