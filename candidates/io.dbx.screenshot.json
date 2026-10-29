@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.screenshot",
+  "publisher": "alan",
+  "version": "0.1.0",
+  "name": "Screenshot",
+  "description": "Capture the screen and keep a local screenshot history in DBX.",
+  "icon": "https://raw.githubusercontent.com/allran/dbx-plugin-screenshot/v0.1.0/assets/plugin.svg",
+  "tags": [
+    "screenshot",
+    "productivity",
+    "workbench"
+  ],
+  "permissions": [
+    "host.events"
+  ],
+  "source": "https://github.com/allran/dbx-plugin-screenshot/tree/v0.1.0",
+  "homepage": "https://github.com/allran/dbx-plugin-screenshot",
+  "license": "Apache-2.0",
+  "releaseNotes": "Initial release: display/window/region/delay capture, annotation tools, preferences, history, and Screen Recording permission flow.",
+  "localizations": {
+    "zh-CN": {
+      "name": "截图",
+      "description": "截取屏幕并在 DBX 中保存本机截图历史。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-darwin-arm64.dbxp",
+      "sha256": "d014272d7d9b19e616c791c210d35833f394eebb1b7da55564a13c12aa5c60fb",
+      "size": 900380
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-darwin-x64.dbxp",
+      "sha256": "c0e48386f416228fc5ba54b802fa74506daba7d9c948e786c459069792b85415",
+      "size": 959819
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-linux-arm64.dbxp",
+      "sha256": "19b33a905a16644fba9b0b751004d0cc40fe0216736ab2e23ccdf7673b08b00e",
+      "size": 1874614
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-linux-x64.dbxp",
+      "sha256": "66542f4c3aff89d2f9b41ca48c36282ce74505a7f10050b650a281facfa74bd5",
+      "size": 1950249
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/allran/dbx-plugin-screenshot/releases/download/v0.1.0/io.dbx.screenshot-0.1.0-windows-x64.dbxp",
+      "sha256": "2a4c6cf8d208fb9b6d4f5b2733e68c79b99c92485a2913c2ea0e164b6972fc6b",
+      "size": 749773
+    }
+  ]
+}
